@@ -15,9 +15,9 @@ try {
     {
       autoCommit: false,
       fetchMaxWaitMs: 1000,
-      fetchMaxBytes: 1024 * 1024,
+      fetchMaxBytes: 1024 * 50,
       encoding: 'utf8',
-      fromOffset: 'latest',
+      fromOffset: false,
       groupId: config.kafka_group_id
     }
   );

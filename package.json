@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node producer.app.js",
-    "dev": "nodemon producer.app.js"
+    "start": "node consumer.app.js",
+    "dev": "nodemon consumer.app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "kafka-node": "^2.4.1",
     "nodemon": "^1.17.3"
   }
